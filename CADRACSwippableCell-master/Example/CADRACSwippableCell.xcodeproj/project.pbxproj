@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F55B2FAEC28669AD7931C4F /* libPods-CADRACSwippableCellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECD52155B0F1B67ED3529C4 /* libPods-CADRACSwippableCellTests.a */; };
+		8C4128291900154000279CF9 /* CADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128281900153F00279CF9 /* CADAppDelegate.m */; };
+		8C41282C1900155000279CF9 /* CADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41282B1900155000279CF9 /* CADViewController.m */; };
+		8C41282E1900155B00279CF9 /* CADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C41282D1900155B00279CF9 /* CADViewController.xib */; };
+		8C4128321900156600279CF9 /* CADSampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128301900156600279CF9 /* CADSampleCell.m */; };
+		8C4128331900156600279CF9 /* CADSampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4128311900156600279CF9 /* CADSampleCell.xib */; };
+		8C4128351900157400279CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128341900157400279CF9 /* main.m */; };
+		8C4128391900159900279CF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C4128371900159900279CF9 /* InfoPlist.strings */; };
+		8C70F8481900190300269C72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF9829418FECB46001A3FAB /* Images.xcassets */; };
+		8CF9828318FECB46001A3FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828218FECB46001A3FAB /* Foundation.framework */; };
+		8CF9828518FECB46001A3FAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828418FECB46001A3FAB /* CoreGraphics.framework */; };
+		8CF9828718FECB46001A3FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828618FECB46001A3FAB /* UIKit.framework */; };
+		8CF9829C18FECB46001A3FAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9829B18FECB46001A3FAB /* XCTest.framework */; };
+		8CF9829D18FECB46001A3FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828218FECB46001A3FAB /* Foundation.framework */; };
+		8CF9829E18FECB46001A3FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828618FECB46001A3FAB /* UIKit.framework */; };
+		8CF982A618FECB46001A3FAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CF982A418FECB46001A3FAB /* InfoPlist.strings */; };
+		8CF982A818FECB46001A3FAB /* CADRACSwippableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF982A718FECB46001A3FAB /* CADRACSwippableCellTests.m */; };
+		9A5E9CE500237079A771C0F4 /* libPods-CADRACSwippableCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BEC0D76A3FB85764CDE87 /* libPods-CADRACSwippableCell.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF9829F18FECB46001A3FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF9827718FECB46001A3FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF9827E18FECB46001A3FAB;
+			remoteInfo = CADRACSwippeableCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068923FA732D485CBE8406E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		113CEE6EDA8AB659942E636C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		327F098FC97890544AC700D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7B345ABF13F32DCC791988D8 /* Pods-CADRACSwippableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell.release.xcconfig"; sourceTree = "<group>"; };
+		8C4128271900153F00279CF9 /* CADAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADAppDelegate.h; path = CADRACSwippableCell/CADAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8C4128281900153F00279CF9 /* CADAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADAppDelegate.m; path = CADRACSwippableCell/CADAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8C41282A1900155000279CF9 /* CADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADViewController.h; path = CADRACSwippableCell/CADViewController.h; sourceTree = SOURCE_ROOT; };
+		8C41282B1900155000279CF9 /* CADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADViewController.m; path = CADRACSwippableCell/CADViewController.m; sourceTree = SOURCE_ROOT; };
+		8C41282D1900155B00279CF9 /* CADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CADViewController.xib; path = CADRACSwippableCell/CADViewController.xib; sourceTree = SOURCE_ROOT; };
+		8C41282F1900156600279CF9 /* CADSampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADSampleCell.h; path = CADRACSwippableCell/CADSampleCell.h; sourceTree = SOURCE_ROOT; };
+		8C4128301900156600279CF9 /* CADSampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADSampleCell.m; path = CADRACSwippableCell/CADSampleCell.m; sourceTree = SOURCE_ROOT; };
+		8C4128311900156600279CF9 /* CADSampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CADSampleCell.xib; path = CADRACSwippableCell/CADSampleCell.xib; sourceTree = SOURCE_ROOT; };
+		8C4128341900157400279CF9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CADRACSwippableCell/main.m; sourceTree = SOURCE_ROOT; };
+		8C4128361900158600279CF9 /* CADRACSwippableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CADRACSwippableCell-Prefix.pch"; path = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8C4128381900159900279CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CADRACSwippableCell/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		8C41283A190015A100279CF9 /* CADRACSwippableCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CADRACSwippableCell-Info.plist"; path = "CADRACSwippableCell/CADRACSwippableCell-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CADRACSwippableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF9828218FECB46001A3FAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CF9828418FECB46001A3FAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CF9828618FECB46001A3FAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CF9829418FECB46001A3FAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CADRACSwippableCell/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		8CF9829A18FECB46001A3FAB /* CADRACSwippableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADRACSwippableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF9829B18FECB46001A3FAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CF982A318FECB46001A3FAB /* CADRACSwippableCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CADRACSwippableCellTests-Info.plist"; sourceTree = "<group>"; };
+		8CF982A518FECB46001A3FAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CF982A718FECB46001A3FAB /* CADRACSwippableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADRACSwippableCellTests.m; sourceTree = "<group>"; };
+		AF4BEC0D76A3FB85764CDE87 /* libPods-CADRACSwippableCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CADRACSwippableCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD52155B0F1B67ED3529C4 /* libPods-CADRACSwippableCellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CADRACSwippableCellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CDA570610143C2DD4FFD08 /* Pods-CADRACSwippableCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCellTests/Pods-CADRACSwippableCellTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8DBECBFD08B44BD39B3E8BD /* Pods-CADRACSwippableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell.debug.xcconfig"; sourceTree = "<group>"; };
+		EDE65B018C89C676C4696AD6 /* Pods-CADRACSwippableCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCellTests/Pods-CADRACSwippableCellTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF9827C18FECB46001A3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF9828518FECB46001A3FAB /* CoreGraphics.framework in Frameworks */,
+				8CF9828718FECB46001A3FAB /* UIKit.framework in Frameworks */,
+				8CF9828318FECB46001A3FAB /* Foundation.framework in Frameworks */,
+				9A5E9CE500237079A771C0F4 /* libPods-CADRACSwippableCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF9829718FECB46001A3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF9829C18FECB46001A3FAB /* XCTest.framework in Frameworks */,
+				8CF9829E18FECB46001A3FAB /* UIKit.framework in Frameworks */,
+				8CF9829D18FECB46001A3FAB /* Foundation.framework in Frameworks */,
+				7F55B2FAEC28669AD7931C4F /* libPods-CADRACSwippableCellTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF9827618FECB46001A3FAB = {
+			isa = PBXGroup;
+			children = (
+				8CF9828818FECB46001A3FAB /* CADRACSwippableCell */,
+				8CF982A118FECB46001A3FAB /* CADRACSwippableCellTests */,
+				8CF9828118FECB46001A3FAB /* Frameworks */,
+				8CF9828018FECB46001A3FAB /* Products */,
+				BCC2B56F0AAAD753A4AEE98C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF9828018FECB46001A3FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */,
+				8CF9829A18FECB46001A3FAB /* CADRACSwippableCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF9828118FECB46001A3FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9828218FECB46001A3FAB /* Foundation.framework */,
+				8CF9828418FECB46001A3FAB /* CoreGraphics.framework */,
+				8CF9828618FECB46001A3FAB /* UIKit.framework */,
+				8CF9829B18FECB46001A3FAB /* XCTest.framework */,
+				068923FA732D485CBE8406E4 /* libPods.a */,
+				AF4BEC0D76A3FB85764CDE87 /* libPods-CADRACSwippableCell.a */,
+				CECD52155B0F1B67ED3529C4 /* libPods-CADRACSwippableCellTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF9828818FECB46001A3FAB /* CADRACSwippableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8C4128271900153F00279CF9 /* CADAppDelegate.h */,
+				8C4128281900153F00279CF9 /* CADAppDelegate.m */,
+				8C41282A1900155000279CF9 /* CADViewController.h */,
+				8C41282B1900155000279CF9 /* CADViewController.m */,
+				8C41282D1900155B00279CF9 /* CADViewController.xib */,
+				8C41282F1900156600279CF9 /* CADSampleCell.h */,
+				8C4128301900156600279CF9 /* CADSampleCell.m */,
+				8C4128311900156600279CF9 /* CADSampleCell.xib */,
+				8CF9829418FECB46001A3FAB /* Images.xcassets */,
+				8CF9828918FECB46001A3FAB /* Supporting Files */,
+			);
+			name = CADRACSwippableCell;
+			path = CADRACSwippeableCell;
+			sourceTree = "<group>";
+		};
+		8CF9828918FECB46001A3FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C41283A190015A100279CF9 /* CADRACSwippableCell-Info.plist */,
+				8C4128371900159900279CF9 /* InfoPlist.strings */,
+				8C4128341900157400279CF9 /* main.m */,
+				8C4128361900158600279CF9 /* CADRACSwippableCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CF982A118FECB46001A3FAB /* CADRACSwippableCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF982A718FECB46001A3FAB /* CADRACSwippableCellTests.m */,
+				8CF982A218FECB46001A3FAB /* Supporting Files */,
+			);
+			name = CADRACSwippableCellTests;
+			path = CADRACSwippeableCellTests;
+			sourceTree = "<group>";
+		};
+		8CF982A218FECB46001A3FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CF982A318FECB46001A3FAB /* CADRACSwippableCellTests-Info.plist */,
+				8CF982A418FECB46001A3FAB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC2B56F0AAAD753A4AEE98C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				327F098FC97890544AC700D1 /* Pods.debug.xcconfig */,
+				113CEE6EDA8AB659942E636C /* Pods.release.xcconfig */,
+				E8DBECBFD08B44BD39B3E8BD /* Pods-CADRACSwippableCell.debug.xcconfig */,
+				7B345ABF13F32DCC791988D8 /* Pods-CADRACSwippableCell.release.xcconfig */,
+				EDE65B018C89C676C4696AD6 /* Pods-CADRACSwippableCellTests.debug.xcconfig */,
+				E1CDA570610143C2DD4FFD08 /* Pods-CADRACSwippableCellTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF9827E18FECB46001A3FAB /* CADRACSwippableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF982AB18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCell" */;
+			buildPhases = (
+				BDD5401432494994BAFB097F /* [CP] Check Pods Manifest.lock */,
+				8CF9827B18FECB46001A3FAB /* Sources */,
+				8CF9827C18FECB46001A3FAB /* Frameworks */,
+				8CF9827D18FECB46001A3FAB /* Resources */,
+				D0344F28793343D890018F67 /* [CP] Copy Pods Resources */,
+				CD6ADF3A73A72CDE6A9FD051 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CADRACSwippableCell;
+			productName = CADRACSwippeableCell;
+			productReference = 8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF9829918FECB46001A3FAB /* CADRACSwippableCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF982AE18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCellTests" */;
+			buildPhases = (
+				0F941B95C741919694F497EE /* [CP] Check Pods Manifest.lock */,
+				8CF9829618FECB46001A3FAB /* Sources */,
+				8CF9829718FECB46001A3FAB /* Frameworks */,
+				8CF9829818FECB46001A3FAB /* Resources */,
+				00049A6650B0C6D3D9EEA65C /* [CP] Embed Pods Frameworks */,
+				7A8744B3C403862FE3FC94E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF982A018FECB46001A3FAB /* PBXTargetDependency */,
+			);
+			name = CADRACSwippableCellTests;
+			productName = CADRACSwippeableCellTests;
+			productReference = 8CF9829A18FECB46001A3FAB /* CADRACSwippableCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF9827718FECB46001A3FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Crows And Dogs";
+				TargetAttributes = {
+					8CF9827E18FECB46001A3FAB = {
+						DevelopmentTeam = 6T365383G4;
+					};
+					8CF9829918FECB46001A3FAB = {
+						TestTargetID = 8CF9827E18FECB46001A3FAB;
+					};
+				};
+			};
+			buildConfigurationList = 8CF9827A18FECB46001A3FAB /* Build configuration list for PBXProject "CADRACSwippableCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CF9827618FECB46001A3FAB;
+			productRefGroup = 8CF9828018FECB46001A3FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF9827E18FECB46001A3FAB /* CADRACSwippableCell */,
+				8CF9829918FECB46001A3FAB /* CADRACSwippableCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF9827D18FECB46001A3FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C70F8481900190300269C72 /* Images.xcassets in Resources */,
+				8C4128331900156600279CF9 /* CADSampleCell.xib in Resources */,
+				8C4128391900159900279CF9 /* InfoPlist.strings in Resources */,
+				8C41282E1900155B00279CF9 /* CADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF9829818FECB46001A3FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF982A618FECB46001A3FAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00049A6650B0C6D3D9EEA65C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCellTests/Pods-CADRACSwippableCellTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F941B95C741919694F497EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8744B3C403862FE3FC94E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCellTests/Pods-CADRACSwippableCellTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD5401432494994BAFB097F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6ADF3A73A72CDE6A9FD051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0344F28793343D890018F67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF9827B18FECB46001A3FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4128351900157400279CF9 /* main.m in Sources */,
+				8C4128321900156600279CF9 /* CADSampleCell.m in Sources */,
+				8C41282C1900155000279CF9 /* CADViewController.m in Sources */,
+				8C4128291900154000279CF9 /* CADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF9829618FECB46001A3FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF982A818FECB46001A3FAB /* CADRACSwippableCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF982A018FECB46001A3FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF9827E18FECB46001A3FAB /* CADRACSwippableCell */;
+			targetProxy = 8CF9829F18FECB46001A3FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4128371900159900279CF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4128381900159900279CF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CF982A418FECB46001A3FAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF982A518FECB46001A3FAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF982A918FECB46001A3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CF982AA18FECB46001A3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF982AC18FECB46001A3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DBECBFD08B44BD39B3E8BD /* Pods-CADRACSwippableCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6T365383G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch";
+				INFOPLIST_FILE = "CADRACSwippableCell/CADRACSwippableCell-Info.plist";
+				PRODUCT_NAME = CADRACSwippableCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CF982AD18FECB46001A3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B345ABF13F32DCC791988D8 /* Pods-CADRACSwippableCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6T365383G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch";
+				INFOPLIST_FILE = "CADRACSwippableCell/CADRACSwippableCell-Info.plist";
+				PRODUCT_NAME = CADRACSwippableCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CF982AF18FECB46001A3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE65B018C89C676C4696AD6 /* Pods-CADRACSwippableCellTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CADRACSwippeableCell.app/CADRACSwippeableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippeableCell/CADRACSwippeableCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CADRACSwippeableCellTests/CADRACSwippableCellTests-Info.plist";
+				PRODUCT_NAME = CADRACSwippableCellTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CF982B018FECB46001A3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CDA570610143C2DD4FFD08 /* Pods-CADRACSwippableCellTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CADRACSwippeableCell.app/CADRACSwippeableCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippeableCell/CADRACSwippeableCell-Prefix.pch";
+				INFOPLIST_FILE = "CADRACSwippeableCellTests/CADRACSwippableCellTests-Info.plist";
+				PRODUCT_NAME = CADRACSwippableCellTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF9827A18FECB46001A3FAB /* Build configuration list for PBXProject "CADRACSwippableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF982A918FECB46001A3FAB /* Debug */,
+				8CF982AA18FECB46001A3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF982AB18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF982AC18FECB46001A3FAB /* Debug */,
+				8CF982AD18FECB46001A3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF982AE18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF982AF18FECB46001A3FAB /* Debug */,
+				8CF982B018FECB46001A3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF9827718FECB46001A3FAB /* Project object */;
+}
